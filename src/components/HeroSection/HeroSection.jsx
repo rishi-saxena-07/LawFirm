@@ -16,18 +16,20 @@ const HeroSection = () => {
           </p>
         </div>
         <div className={styles.input}>
-          <MessageIcon className={styles.message} />
-          <input
-            id="email"
-            className={styles.input1}
-            type="email"
-            placeholder="Enter your email address"
-            sx={{
-              height: "30px",
-              borderRadius: "10px",
-              backgroundColor: "black",
-            }}
-          />
+          <div className={styles.emailInput}>
+            <MessageIcon className={styles.message} />
+            <input
+              id="email"
+              className={styles.input1}
+              type="email"
+              placeholder="Enter your email address"
+              sx={{
+                height: "30px",
+                borderRadius: "10px",
+                backgroundColor: "black",
+              }}
+            />
+          </div>
           <button
             id="btnEmail"
             className={styles.emailButton}
